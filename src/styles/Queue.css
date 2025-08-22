@@ -1,0 +1,11 @@
+.queue { padding:10px; border-left:1px solid #eee; width:auto; overflow:auto; }
+.queue-item { display:flex; align-items:center; gap:8px; padding:8px; border-radius:6px; background:transparent; }
+.drag-handle { cursor:grab; padding:4px; }
+.q-cover { width:44px; height:44px; object-fit:cover; border-radius:4px; }
+.q-meta { flex:1; min-width:0; cursor:default; }
+.q-title { font-weight:600; }
+.q-sub { color:#666; font-size:0.9rem; }
+.q-actions { display:flex; gap:4px; }
+.q-actions button { padding:6px 8px; border-radius:6px; cursor:pointer; border:none; }
+.remove-btn { background:#ff4d4d; color:white; }
+.remove-btn:hover { background:#e60000; }

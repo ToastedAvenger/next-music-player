@@ -1,0 +1,15 @@
+/* /components/TrackCard.css */
+.track-card {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  padding:8px;
+  border-radius:6px;
+  transition:background .12s;
+}
+.track-card:hover { background: rgba(0,0,0,0.03); }
+.track-card .cover { width:56px; height:56px; object-fit:cover; border-radius:4px; }
+.meta { flex:1; }
+.title { font-weight:600; }
+.sub { font-size:0.9rem; color:#666; }
+.actions button { margin-left:8px; padding:6px 8px; border-radius:6px; cursor:pointer; }

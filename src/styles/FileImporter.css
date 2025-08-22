@@ -1,0 +1,16 @@
+/* /components/FileImporter.css */
+.file-importer {
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+.file-importer .btn {
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+  border:1px solid #444;
+  background:#1db954; /* green play-ish color (you can change) */
+  color:white;
+}
+.file-label input[type="file"]{ display:none; }
+.or { color:#888; font-size:0.9rem; }
