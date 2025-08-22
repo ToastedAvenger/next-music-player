@@ -82,7 +82,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📌 Current Limitations
+## Current Limitations
 
 * Playlist data is **not persistent** (reset after page reload).
 * Basic styling only (dark mode planned).
